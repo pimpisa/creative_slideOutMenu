@@ -59,7 +59,7 @@ nav a:focus {
     border-left: 15px solid #A0CAEF;
 }
 .cl-effect-10 a span.purple-m {
-    border-left: 15px solid #EFB1E4;
+    border-left: 15px solid #BFB1E4;
 }
 .cl-effect-10 a span.yellow-m {
     border-left: 15px solid #FFC584;
@@ -80,7 +80,7 @@ nav a:focus {
 	width: 100%;
 	height: 100%;
 	background: #fff;
-	color: #0f7c67;
+	color: #fff;
 	content: attr(data-hover);
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
@@ -89,22 +89,22 @@ nav a:focus {
 }
 /*Change Bg when click*/
 a.red-m::before{
-	background: #FEEFF1 !important;
+	background: #f98999 !important;
 }
 a.blue-m::before{
-	background: #FEEFF1 !important;
+	background: #a0caef !important;
 }
 a.purple-m::before{
-	background: #FEEFF1 !important;
-}
-a.green-m::before{
-	background: #FEEFF1 !important;
+	background: #bfb1e4 !important;
 }
 a.yellow-m::before{
-	background: #FEEFF1 !important;
+	background: #ffc584 !important;
+}
+a.green-m::before{
+	background: #badbb3 !important;
 }
 a.pink-m::before{
-	background: #FEEFF1 !important;
+	background: #f8d4d7 !important;
 }
 .cl-effect-10 a:hover span,
 .cl-effect-10 a:focus span,
